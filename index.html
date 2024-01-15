@@ -25,6 +25,46 @@
       <div class="wrapper">
         <nav class="main">
           <a class="logo">Kathyayini</a>
+          <div class="nav-items">
+            <a href="javascript:void(0)" onclick="scrollToContent()" class="nav-bar">
+            About Me
+            </a>
+            <a href="javascript:void(0)"  onclick="scrollToContent1()"   class="nav-bar">
+            Tech Stack 
+            </a>
+            <a href="javascript:void(0)" onclick="scrollToContent2()"  class="nav-bar" >
+              Projects
+            </a>
+            <a href="javascript:void(0)"  onclick="scrollToContent3()"   class="nav-bar" >
+            Contact Me
+          </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main>
+      <!--==================== HOME ====================-->
+      <div class="aboutme">
+      <section class="hero" >
+        <div class="wrapper hero-wrapper bottom-border">
+          <div class="hero-content">
+            <picture>
+              
+              <img src="backimg.png" alt="kathyayini" width="320" height="300" Loading="eager"  style="border-radius:70% ;">
+            </picture>
+            <div class="hero-text">
+              <h1 class="hero-headline header" style="font-size:55px;">
+                Hello!<br>It's Me <span>Kathyayini Kamath</span></h1>
+              
+              <p class="hero-description">As an aspiring computer science engineer, I am fueled by a passion for technology and a relentless pursuit of knowledge. With an insatiable curiosity, I approach each challenge as an opportunity to learn and grow, embracing the ever-evolving world of technology. Eager to expand my skills and contribute meaningfully to the field, I am dedicated to pushing the boundaries of what is possible in the realm of computer science.</p>
+              <a href="assets/pdf/Resume.pdf" download class="hero-contact underline">Download CV</a>
+            </div>
+          
+          </div>
+          <br>
+          
           <div class="nav-icons">
             <a href="http://www.linkedin.com/in/kathyayini-kamath-820408247" target="blank" class="header-social">
               <i class="ri-linkedin-box-fill"></i>
@@ -35,38 +75,17 @@
             <a href="http://www.linkedin.com/in/kathyayini-kamath-820408247" target="blank" class="header-social">
               <i class="ri-instagram-line"></i>
             </a>
-            <a href="http://www.linkedin.com/in/kathyayini-kamath-820408247" target="blank" class="header-social"></a>
+            <a href="http://www.linkedin.com/in/kathyayini-kamath-820408247" target="blank" class="header-social">
             <i class="ri-twitter-fill"></i>
           </a>
           </div>
-        </nav>
-      </div>
-    </header>
-
-    <!--==================== MAIN ====================-->
-    <main>
-      <!--==================== HOME ====================-->
-      <section class="hero">
-        <div class="wrapper hero-wrapper bottom-border">
-          <div class="hero-content">
-            <picture>
-              <img src="assets/images/image-profile.jpg" alt="kathyayini" width="173" height="383" Loading="eager">
-            </picture>
-            <div class="hero-text">
-              <h1 class="hero-headline header-xl">
-                Hello!<br>This is Kathyayini</h1>
-              
-              <p class="hero-description">Aspiring Computer science Engineer passionate about coding seeking software development opportunities</p>
-              <a href="assets/pdf/Resume.pdf" download class="hero-contact underline">Download CV</a>
-            </div>
-          </div>
-
         </div>
       </section>
-
+    </div>
       <!--==================== SKILLS ====================-->
+      <div class="tech">
       <section class="skills">
-        <div class="wapper skills-wrapper bottom-border">
+        <div class="wrapper skills-wrapper bottom-border">
           <div class="skills-item ">
           <h3 class="skills-title">HTML</h3>
           <p class="skills-description">1 year experience</p>
@@ -86,88 +105,108 @@
         <div class="skills-item">
           <h3 class="skills-title">PYTHON</h3>
           <p class="skills-description">1 year experience</p>
-        </div>  
+        </div>   
+        <div class="skills-item">
+          <h3 class="skills-title">DJANGO</h3>
+          <p class="skills-description">1 month experience</p>
+        </div>
+        <div class="skills-item">
+          <h3 class="skills-title">C#</h3>
+          <p class="skills-description">1 month experience</p>
+        </div>   
       </div>
       </section>
-
+    </div>
+<hr>
       <!--==================== PROJECTS ====================-->
       <section class="projects">
         <div class="wrapper projects-wrapper">
     <div class="projects-grid">
-      <h2 class="projects-headline header-xl">Projects</h2>
+      <h2 class="projects-headline header" style="font-size:55px;">Projects</h2>
       <div class="projects-item">
         <picture class="projects-picture">
-          <img src="assets/images/thumbnail-project-1.jpg" height="500" width="500" Loading="lazy">
-        </picture>
-
-        <h3 class="projects-name">Todo App</h3>
+         
+          <img src="assets/images/project1.png" height="500" width="500" Loading="lazy">
+          <div class="project-layer">
+           <h3 class="projects-name">Customizable Calendar</h3>
         <p class="projects-tag">
-          <span>HTML</span>
-          <span>CSS</span>
+          <span>HTML</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span>CSS</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span>JavaScript</span>&nbsp;&nbsp;&nbsp;&nbsp;
         </p>
         <div class="projets-links">
-          <a href="" class="underline">View Projects</a>
-          <a href="" class="underline">View code</a>
+          <a href="https://kathyayinikam.github.io/CALENDAR1/" class="underline">View Project</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://github.com/kathyayinikam/CALENDAR1" class="underline">View code</a>
+        </div>
+        </picture>
+      </div>
+       
+      </div>
+      <div class="projects-item">
+        <picture class="projects-picture">
+          <img src="assets/images/project4.png" height="500" width="500" Loading="lazy">
+        </picture>
+
+        <h3 class="projects-name">Platform for efficient online collaboration</h3>
+        <p class="projects-tag">
+          <span>HTML</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span>CSS</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span>JavaScript</span>&nbsp;&nbsp;&nbsp;&nbsp;
+        </p>
+        <div class="projets-links">
+          <a href="https://kathyayinikamath.github.io/project1/" class="underline">View Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://github.com/KathyayiniKamath/NITK-Hackathon" class="underline">View code</a>
         </div>
       </div>
       <div class="projects-item">
         <picture class="projects-picture">
-          <img src="assets/images/thumbnail-project-1.jpg" height="500" width="500" Loading="lazy">
+          <img src="assets/images/project2.png" height="500" width="500" Loading="lazy">
         </picture>
 
-        <h3 class="projects-name">Todo App</h3>
+        <h3 class="projects-name">Website for event registration</h3>
         <p class="projects-tag">
-          <span>HTML</span>
-          <span>CSS</span>
+          <span>HTML</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span>CSS</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span>JavaScript</span>&nbsp;&nbsp;&nbsp;&nbsp;
         </p>
         <div class="projets-links">
-          <a href="" class="underline">View Projects</a>
-          <a href="" class="underline">View code</a>
+          <a href="" class="underline">View Project</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://github.com/KathyayiniKamath/Webcraftchallenge" class="underline">View code</a>
         </div>
       </div>
+      
       <div class="projects-item">
         <picture class="projects-picture">
-          <img src="assets/images/thumbnail-project-2.jpg" height="500" width="500" Loading="lazy">
+          <img src="assets/images/project3.png" height="500" width="500" Loading="lazy">
         </picture>
 
-        <h3 class="projects-name">Todo App</h3>
+        <h3 class="projects-name">Hostel Management System</h3>
         <p class="projects-tag">
-          <span>HTML</span>
-          <span>CSS</span>
+          <span>HTML</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span>CSS</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span>JavaScript</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span>php</span>
         </p>
         <div class="projets-links">
-          <a href="" class="underline">View Projects</a>
-          <a href="" class="underline">View code</a>
+          <a href="" class="underline">View Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://github.com/KathyayiniKamath/InternalHackathon" class="underline">View code</a>
         </div>
       </div>
+      
       <div class="projects-item">
         <picture class="projects-picture">
-          <img src="assets/images/thumbnail-project-3.jpg" height="500" width="500" Loading="lazy">
+          <img src="assets/images/project5.png" height="500" width="500" Loading="lazy">
         </picture>
 
-        <h3 class="projects-name">Todo App</h3>
+        <h3 class="projects-name">Calculator using Django</h3>
         <p class="projects-tag">
-          <span>HTML</span>
-          <span>CSS</span>
+          <span>HTML</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span>CSS</span>&nbsp;&nbsp;&nbsp;&nbsp;
+          <span>DJANGO</span>&nbsp;&nbsp;&nbsp;&nbsp;
         </p>
         <div class="projets-links">
-          <a href="" class="underline">View Projects</a>
-          <a href="" class="underline">View code</a>
-        </div>
-      </div>
-      <div class="projects-item">
-        <picture class="projects-picture">
-          <img src="assets/images/thumbnail-project-4.jpg" height="500" width="500" Loading="lazy">
-        </picture>
-
-        <h3 class="projects-name">Todo App</h3>
-        <p class="projects-tag">
-          <span>HTML</span>
-          <span>CSS</span>
-        </p>
-        <div class="projets-links">
-          <a href="" class="underline">View Projects</a>
-          <a href="" class="underline">View code</a>
+          <a href="" class="underline">View Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="https://github.com/kathyayinikam/Django-projects/tree/main/calci" class="underline">View code</a>
         </div>
       </div>
     </div>

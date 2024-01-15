@@ -57,3 +57,46 @@ const sendEmail = async(e)=>{
     }
 };
 contactForm.addEventListener("submit",sendEmail);
+
+function scrollToContent() {
+    // Scroll to the hidden content when the button is pressed
+    document.querySelector('.aboutme').scrollIntoView({
+    behavior: 'smooth'
+    });
+}
+function scrollToContent1() {
+    // Scroll to the hidden content when the link is clicked
+    var element = document.querySelector('.tech');
+
+    if (element) {
+        element.scrollIntoView({
+            behavior: 'smooth'
+        });
+    } else {
+        console.error("Element with class 'skills-item' not found.");
+    }
+}
+function scrollToContent2() {
+    // Scroll to the hidden content when the link is clicked
+    var element = document.querySelector('.projects');
+
+    if (element) {
+        element.scrollIntoView({
+            behavior: 'smooth'
+        });
+    } else {
+        console.error("Element with class 'skills-item' not found.");
+    }
+}
+function scrollToContent3() {
+    // Scroll to the hidden content when the link is clicked
+    var element = document.querySelector('.contact');
+
+    if (element) {
+        element.scrollIntoView({
+            behavior: 'smooth'
+        });
+    } else {
+        console.error("Element with class 'skills-item' not found.");
+    }
+}
