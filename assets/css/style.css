@@ -3,12 +3,19 @@
 
 :root {
   /*========== Colors ==========*/
-  --bg-body: hsl(0, 0%, 8%);
+  --bg-body: white;
+  --bg-body2: white;
+  --accent: #7F00FF;
+  --text1: hsl(0, 0%, 8%);
+  --text2: hsl(0, 0%, 8%);
+  --invalid: hsl(7, 100%, 68%);
+ 
+  /*--bg-body: hsl(0, 0%, 8%);
   --bg-body2: hsl(0, 0%, 14%);
   --accent: #0ef;
   --text1: hsl(0, 0%, 100%);
   --text2: hsl(0, 0%, 85%);
-  --invalid: hsl(7, 100%, 68%);
+  --invalid: hsl(7, 100%, 68%);*/
 }
 
 /* =============== BASE =============== */
@@ -109,7 +116,7 @@ button {
 a:hover {
   color: var(--accent);
   transform: scale(1.08);
-  box-shadow: 0 0 1rem #0ef;
+  box-shadow: 0 0 1rem #7F00FF;
 }
 
 /* =============== LAYOUT =============== */
@@ -140,21 +147,21 @@ a:hover {
 /* WebKit (Chrome, Safari) */
 ::-webkit-scrollbar {
   width: 12px;
-  background-color: hsl(23, 4%, 15%);
+  background-color:white;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 2px;
-  background-color: hsl(23, 4%, 30%);
+  background-color: whitesmoke;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: hsl(23, 4%, 40%);
+  background-color: white;
 }
 
 /* Firefox styles */
 html {
-  scrollbar-color: hsl(23, 4%, 30%) hsl(23, 4%, 15%);
+  scrollbar-color: white;
   scrollbar-width: thin;
 }
 
@@ -178,13 +185,13 @@ nav{
   align-items: center;
 }
 .nav-bar{
-  color:white;
+  color:hsl(0, 0%, 8%);
   font-weight: bold;
   text-decoration: none;
   margin-left: 20px;
 }
 .nav-bar:hover{
-  color: #0ef;
+  color: #7F00FF;
   font-weight: 600;
 
 }
@@ -218,9 +225,9 @@ nav{
   border:.2rem solid var( --accent);
   border-radius:50%;
   margin-right:15px;
-  color:#0ef;
+  color:#7F00FF;
   transform: scale(1.05);
-  box-shadow: 0 0 1rem #0ef;
+  box-shadow: 0 0 1rem #7F00FF;
   margin:3rem 1.5rem 3 rem 0;
   transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
   justify-content: center;
@@ -229,7 +236,7 @@ nav{
 
 .header-social:hover {
   color:white;
-  background-color: #0ef;
+  background-color: #7F00FF;
  
   
   font-weight: 400;
@@ -261,14 +268,14 @@ nav{
 .skills-title, .nav-icons,.projects-headline,span,.contact-headline {
   font-size: 3,8rem;
   font-weight: bold;
-  color: #0ef;
+  color: #7F00FF;
   text-shadow: 0 0 10px rgb(252, 5, 244), rgb(252, 5, 244), 0 0 30px rgba(255, 255, 255, 0.8);
   animation: glow 1s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
   from {
-      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px black;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgb(241, 72, 216);
   }
   to {
       text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.8), 0 0 60px rgba(255, 255, 255, 0.8);
@@ -399,7 +406,7 @@ nav{
 }
 /* =============== PROJECTS =============== */
 .projects{
-  background-color: #1b1515;
+  background-color: white;
 }
 .projects-grid{
   display:grid;
@@ -447,7 +454,7 @@ nav{
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), #0ef);
+  background: linear-gradient(white, #7F00FF);
   display: flex;
   justify-content: center;
   align-items: center;
